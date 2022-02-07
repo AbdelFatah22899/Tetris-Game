@@ -1,0 +1,205 @@
+WEBVTT
+
+1
+00:00:00.025 --> 00:00:07.813
+[MUSIC]
+
+2
+00:00:07.813 --> 00:00:12.120
+As we've called out before, functions are
+powerful because you can create your own.
+
+3
+00:00:12.120 --> 00:00:16.291
+You can use them to organize the code
+in your scripts into logical blocks,
+
+4
+00:00:16.291 --> 00:00:19.600
+which makes the code you write
+easier to use and reuse.
+
+5
+00:00:19.600 --> 00:00:20.700
+Check out this example.
+
+6
+00:00:22.600 --> 00:00:27.473
+This script uses the len function,
+which returns the length of a string.
+
+7
+00:00:27.473 --> 00:00:31.073
+In this example the script then uses
+that length to calculate a number,
+
+8
+00:00:31.073 --> 00:00:33.359
+which we're calling the lucky number here.
+
+9
+00:00:33.359 --> 00:00:37.250
+And finally, it prints a message
+with the name and the number.
+
+10
+00:00:37.250 --> 00:00:39.543
+Each time you want to
+perform the calculation,
+
+11
+00:00:39.543 --> 00:00:42.556
+we change the values of the variables and
+write the formula.
+
+12
+00:00:42.556 --> 00:00:45.715
+Then, print a greeting
+followed by the lucky number.
+
+13
+00:00:45.715 --> 00:00:49.192
+See how there are exactly
+two lines that are the same,
+
+14
+00:00:49.192 --> 00:00:51.825
+in the first and second part of the code.
+
+15
+00:00:51.825 --> 00:00:54.152
+When you find code
+duplication in your scripts,
+
+16
+00:00:54.152 --> 00:00:58.400
+it's a good idea to check if you can clean
+things up a bit by using a function.
+
+17
+00:00:58.400 --> 00:01:03.174
+How about we rewrite this code creating a
+function to group all the duplicated code
+
+18
+00:01:03.174 --> 00:01:04.359
+into just one line.
+
+19
+00:01:04.359 --> 00:01:08.161
+The updated script gives us the exact
+same result as the original one, but
+
+20
+00:01:08.161 --> 00:01:09.900
+it looks a lot cleaner.
+
+21
+00:01:09.900 --> 00:01:12.600
+First, we've defined a function
+called lucky number,
+
+22
+00:01:12.600 --> 00:01:15.800
+which carries out our calculation and
+prints it for us.
+
+23
+00:01:15.800 --> 00:01:19.164
+Then we call the function twice,
+once with each name.
+
+24
+00:01:19.164 --> 00:01:23.270
+Since we've grouped the calculation and
+print statements into a function,
+
+25
+00:01:23.270 --> 00:01:26.628
+our code is not only easier to read but
+it's also now reusable.
+
+26
+00:01:26.628 --> 00:01:30.720
+We can execute the code inside the lucky
+number function as many times as we need
+
+27
+00:01:30.720 --> 00:01:33.138
+it, by just calling it
+with a different name.
+
+28
+00:01:33.138 --> 00:01:36.543
+So we don't have to write it out and
+again and again for each new name,
+
+29
+00:01:36.543 --> 00:01:37.500
+that makes sense?
+
+30
+00:01:39.100 --> 00:01:42.300
+Hopefully, these examples have helped
+explain how functions are used and
+
+31
+00:01:42.300 --> 00:01:42.800
+defined.
+
+32
+00:01:42.800 --> 00:01:45.306
+And also demonstrated
+how useful they can be.
+
+33
+00:01:45.306 --> 00:01:48.594
+Did you notice that we're feeding
+information into a functions through their
+
+34
+00:01:48.594 --> 00:01:49.600
+parameters?
+
+35
+00:01:49.600 --> 00:01:53.137
+This is one of the many ways that
+we can input data into our code.
+
+36
+00:01:53.137 --> 00:01:57.183
+The values for those parameters may come
+from different places, like a file on
+
+37
+00:01:57.183 --> 00:02:01.309
+our computer or through a form on a
+website, but that doesn't impact our code.
+
+38
+00:02:01.309 --> 00:02:03.266
+The result of the function
+is still the same,
+
+39
+00:02:03.266 --> 00:02:05.130
+no matter where the parameters come from.
+
+40
+00:02:05.130 --> 00:02:07.000
+Functions are your friends.
+
+41
+00:02:07.000 --> 00:02:10.526
+They can help clean up your code and
+do a math so you don't have to.
+
+42
+00:02:10.526 --> 00:02:14.489
+You'll be using them a lot both in this
+course and in your programming life.
+
+43
+00:02:14.489 --> 00:02:16.900
+So get ready to get real
+friendly with functions.

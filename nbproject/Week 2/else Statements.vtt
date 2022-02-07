@@ -1,0 +1,305 @@
+WEBVTT
+
+1
+00:00:00.025 --> 00:00:07.796
+[MUSIC]
+
+2
+00:00:07.796 --> 00:00:11.051
+The if statement is already
+a pretty useful construct, but
+
+3
+00:00:11.051 --> 00:00:13.700
+we can extend it to make
+it even more powerful.
+
+4
+00:00:13.700 --> 00:00:16.100
+Think about the username
+example from the last video.
+
+5
+00:00:18.600 --> 00:00:23.075
+What if we also wanted to print
+a message when the username was valid?
+
+6
+00:00:23.075 --> 00:00:27.100
+Here, we've included an else
+statement to achieve this.
+
+7
+00:00:27.100 --> 00:00:30.777
+The program can now go in one of two
+directions depending on the length of
+
+8
+00:00:30.777 --> 00:00:31.584
+the username.
+
+9
+00:00:31.584 --> 00:00:35.700
+If it's not long enough, we get a message
+indicating that the username is invalid.
+
+10
+00:00:35.700 --> 00:00:38.600
+But if the program verifies that
+the username is long enough,
+
+11
+00:00:38.600 --> 00:00:41.400
+it will print a message
+saying it is valid.
+
+12
+00:00:41.400 --> 00:00:44.100
+Pay attention to how the else
+statement is written.
+
+13
+00:00:44.100 --> 00:00:48.400
+It uses the else keyword followed by
+a colon to indicate the beginning
+
+14
+00:00:48.400 --> 00:00:50.200
+of the else block.
+
+15
+00:00:50.200 --> 00:00:53.800
+Once again, the body of the block
+is further indented to the right.
+
+16
+00:00:53.800 --> 00:00:57.200
+As we've called out before these
+blocks can contain multiple lines and
+
+17
+00:00:57.200 --> 00:00:58.800
+do more than just print messages.
+
+18
+00:00:58.800 --> 00:01:03.300
+They can do calculations, modify values,
+return values, and a lot more.
+
+19
+00:01:03.300 --> 00:01:07.700
+And remember that you can choose to use
+as many or as few spaces as you want for
+
+20
+00:01:07.700 --> 00:01:10.500
+the indentation, but
+you always need to indent and
+
+21
+00:01:10.500 --> 00:01:13.300
+you always need to use
+the same number of spaces.
+
+22
+00:01:15.000 --> 00:01:19.300
+The else statement is very useful,
+but we don't always need it.
+
+23
+00:01:19.300 --> 00:01:23.100
+Say we want to have a function that
+checks if a value is even or odd.
+
+24
+00:01:23.100 --> 00:01:26.033
+We could do that with
+a piece of code like this.
+
+25
+00:01:26.033 --> 00:01:29.100
+Here, we're using a new operator so
+let's first explain that.
+
+26
+00:01:29.100 --> 00:01:32.600
+The modulo operator is represented
+by the percentage sign and
+
+27
+00:01:32.600 --> 00:01:37.000
+returns the remainder of the integer
+division between two numbers.
+
+28
+00:01:37.000 --> 00:01:41.800
+The integer division is an operation
+between integers that yields two results
+
+29
+00:01:41.800 --> 00:01:45.400
+which are both integers,
+the quotient and the remainder.
+
+30
+00:01:45.400 --> 00:01:49.600
+So if we do an integer division
+between 5 and 2, the quotient is 2 and
+
+31
+00:01:49.600 --> 00:01:51.000
+the remainder is 1.
+
+32
+00:01:51.000 --> 00:01:54.200
+If we do an integer
+division between 11 and 3,
+
+33
+00:01:54.200 --> 00:01:57.400
+the quotient is 3 and the remainder is 2.
+
+34
+00:01:57.400 --> 00:02:02.138
+Even numbers are all multiples of 2
+which means the remainder of the integer
+
+35
+00:02:02.138 --> 00:02:06.073
+division between an even number and
+2 is always going to be 0.
+
+36
+00:02:06.073 --> 00:02:06.930
+In this function,
+
+37
+00:02:06.930 --> 00:02:10.100
+we're using this principle to decide
+whether a number is even or not.
+
+38
+00:02:11.200 --> 00:02:15.415
+So how come we have these two return
+statements, one below the other,
+
+39
+00:02:15.415 --> 00:02:17.135
+without an else statement?
+
+40
+00:02:17.135 --> 00:02:20.514
+The trick is that when a return
+statement is executed,
+
+41
+00:02:20.514 --> 00:02:25.500
+the function exits so that the code
+that follows doesn't get executed.
+
+42
+00:02:25.500 --> 00:02:27.800
+This means that if the number is even,
+
+43
+00:02:27.800 --> 00:02:31.800
+the computer will reach the return
+true statement and exit the function.
+
+44
+00:02:31.800 --> 00:02:36.675
+Anything that comes after that will only
+be executed if the condition in the if
+
+45
+00:02:36.675 --> 00:02:38.107
+statement was false.
+
+46
+00:02:38.107 --> 00:02:41.585
+In other words, once the function
+reaches the return false line,
+
+47
+00:02:41.585 --> 00:02:46.500
+we know for sure that the if condition
+was false which means the number was odd.
+
+48
+00:02:46.500 --> 00:02:49.400
+At first, you might feel more comfortable
+including the else statement,
+
+49
+00:02:49.400 --> 00:02:51.700
+even if it's not needed and
+that's totally okay.
+
+50
+00:02:51.700 --> 00:02:55.100
+It's important to know that both
+ways of writing this are correct.
+
+51
+00:02:55.100 --> 00:02:57.600
+And remember that this technique
+can only be used when you're
+
+52
+00:02:57.600 --> 00:03:00.800
+returning a value inside the if statement.
+
+53
+00:03:00.800 --> 00:03:05.324
+To recap, the if statement allows
+us to branch the execution based on
+
+54
+00:03:05.324 --> 00:03:07.595
+a specific condition being true.
+
+55
+00:03:07.595 --> 00:03:12.347
+The else statement lets us set a piece of
+code to run only when the condition of
+
+56
+00:03:12.347 --> 00:03:14.142
+the if statement was false.
+
+57
+00:03:14.142 --> 00:03:18.414
+If you return a value inside an if block
+then the code after the block will only be
+
+58
+00:03:18.414 --> 00:03:20.508
+executed if the condition was false.
+
+59
+00:03:20.508 --> 00:03:22.815
+All make sense?
+
+60
+00:03:22.815 --> 00:03:26.631
+If all these ifs and elses are starting
+to get a little confusing, that's okay.
+
+61
+00:03:26.631 --> 00:03:30.854
+There's a lot to soak up here and the best
+way to do that is yeah, you guessed it,
+
+62
+00:03:30.854 --> 00:03:31.900
+practice.
+
+63
+00:03:31.900 --> 00:03:35.895
+So review the content and
+practice on your own as much as you need.
+
+64
+00:03:35.895 --> 00:03:37.500
+Once you're done,
+meet me over in the next video.

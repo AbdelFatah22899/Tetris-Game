@@ -1,0 +1,536 @@
+WEBVTT
+
+1
+00:00:07.070 --> 00:00:10.665
+In earlier videos, we
+called out that text
+
+2
+00:00:10.665 --> 00:00:14.070
+written between quotes in
+Python is called a string.
+
+3
+00:00:14.070 --> 00:00:15.780
+In programming terminology,
+
+4
+00:00:15.780 --> 00:00:18.120
+a string is known as a data type,
+
+5
+00:00:18.120 --> 00:00:20.190
+whether it's a mobile game or
+
+6
+00:00:20.190 --> 00:00:22.895
+a script used to automatically
+create user accounts.
+
+7
+00:00:22.895 --> 00:00:26.535
+Most programs need to
+manipulate some kind of data,
+
+8
+00:00:26.535 --> 00:00:29.730
+and that data can come in
+a lot of different forums,
+
+9
+00:00:29.730 --> 00:00:32.460
+or like we call them data types.
+
+10
+00:00:32.460 --> 00:00:36.345
+A string is only one kind of
+data type found in Python.
+
+11
+00:00:36.345 --> 00:00:37.565
+There's a bunch of others,
+
+12
+00:00:37.565 --> 00:00:39.540
+like an integer which represents
+
+13
+00:00:39.540 --> 00:00:42.225
+whole numbers without
+a fraction, like one,
+
+14
+00:00:42.225 --> 00:00:43.910
+and float, which represents
+
+15
+00:00:43.910 --> 00:00:45.950
+real numbers or in other words,
+
+16
+00:00:45.950 --> 00:00:49.070
+a number with a
+fractional part like 2.5.
+
+17
+00:00:49.070 --> 00:00:51.020
+Generally, your computer doesn't
+
+18
+00:00:51.020 --> 00:00:53.120
+know how to mix
+different data types.
+
+19
+00:00:53.120 --> 00:00:55.370
+For example, adding
+two integers together
+
+20
+00:00:55.370 --> 00:00:58.285
+makes perfect sense to
+computers, like this.
+
+21
+00:00:58.285 --> 00:01:01.805
+Adding together two
+strings also makes sense.
+
+22
+00:01:01.805 --> 00:01:03.260
+We just end up with the longer
+
+23
+00:01:03.260 --> 00:01:04.820
+strings that contains the two,
+
+24
+00:01:04.820 --> 00:01:07.850
+like so, but your computer
+
+25
+00:01:07.850 --> 00:01:10.370
+doesn't know how to add
+an integer and a string.
+
+26
+00:01:10.370 --> 00:01:13.100
+If you tell it to mix these
+two different data types,
+
+27
+00:01:13.100 --> 00:01:14.900
+your computer isn't
+going to know what to do
+
+28
+00:01:14.900 --> 00:01:17.780
+and will raise an
+error. Check it out.
+
+29
+00:01:17.780 --> 00:01:21.720
+Oh, no, our first
+error, but don't panic.
+
+30
+00:01:21.720 --> 00:01:23.600
+Errors are a common
+part of programming,
+
+31
+00:01:23.600 --> 00:01:25.895
+and you'll probably have
+to deal with them a lot.
+
+32
+00:01:25.895 --> 00:01:28.730
+The trick is to think of
+errors as little clues from
+
+33
+00:01:28.730 --> 00:01:29.780
+your computer to help you
+
+34
+00:01:29.780 --> 00:01:31.715
+improve your programming skills.
+
+35
+00:01:31.715 --> 00:01:33.465
+Read the errors carefully,
+
+36
+00:01:33.465 --> 00:01:34.850
+understand what
+they're telling you,
+
+37
+00:01:34.850 --> 00:01:36.290
+and then use that new knowledge
+
+38
+00:01:36.290 --> 00:01:37.790
+to help you fix the mistake.
+
+39
+00:01:37.790 --> 00:01:40.490
+In this example, the last
+line of the error message
+
+40
+00:01:40.490 --> 00:01:41.690
+shows us that we've encountered
+
+41
+00:01:41.690 --> 00:01:43.625
+something called a TypeError.
+
+42
+00:01:43.625 --> 00:01:46.040
+When we get a bit of
+explanatory texts,
+
+43
+00:01:46.040 --> 00:01:48.350
+that tells us that the
+plus sign can't be used
+
+44
+00:01:48.350 --> 00:01:51.380
+between an int type
+and an str type,
+
+45
+00:01:51.380 --> 00:01:53.915
+which are short names
+for integer and string.
+
+46
+00:01:53.915 --> 00:01:55.820
+Thinking about what we've already
+
+47
+00:01:55.820 --> 00:01:57.679
+learned about strings, integers,
+
+48
+00:01:57.679 --> 00:01:58.850
+and mixing data types,
+
+49
+00:01:58.850 --> 00:02:01.730
+can you guess what the
+error is trying to tell us?
+
+50
+00:02:01.730 --> 00:02:04.580
+The message unsupported
+operand type,
+
+51
+00:02:04.580 --> 00:02:06.305
+tells us that we
+can't add the integer
+
+52
+00:02:06.305 --> 00:02:08.290
+seven and the string eight,
+
+53
+00:02:08.290 --> 00:02:10.200
+because they're
+different data types,
+
+54
+00:02:10.200 --> 00:02:11.750
+but what if you didn't have
+
+55
+00:02:11.750 --> 00:02:13.610
+an instructor to helpfully
+pointed that out?
+
+56
+00:02:13.610 --> 00:02:15.230
+How would you know? You'd need
+
+57
+00:02:15.230 --> 00:02:16.835
+to use your research skills
+
+58
+00:02:16.835 --> 00:02:18.245
+and the resources we called out
+
+59
+00:02:18.245 --> 00:02:20.540
+earlier in the course to
+do some investigating.
+
+60
+00:02:20.540 --> 00:02:22.190
+For example, you could look
+
+61
+00:02:22.190 --> 00:02:23.690
+for information
+about the error by
+
+62
+00:02:23.690 --> 00:02:25.520
+pasting the TypeError
+message into
+
+63
+00:02:25.520 --> 00:02:27.725
+the search bar of your
+favorite search engine.
+
+64
+00:02:27.725 --> 00:02:29.390
+This is a common trick used by
+
+65
+00:02:29.390 --> 00:02:31.370
+almost everyone learning to code,
+
+66
+00:02:31.370 --> 00:02:33.220
+and even by experienced
+developers.
+
+67
+00:02:33.220 --> 00:02:34.370
+You'll usually find that
+
+68
+00:02:34.370 --> 00:02:35.450
+other people on the Internet have
+
+69
+00:02:35.450 --> 00:02:38.005
+reported similar errors
+and solved them too.
+
+70
+00:02:38.005 --> 00:02:39.505
+Back to our example.
+
+71
+00:02:39.505 --> 00:02:41.710
+Maybe you're thinking, aren't we
+
+72
+00:02:41.710 --> 00:02:44.620
+adding two numbers here?
+Looks a bit like it.
+
+73
+00:02:44.620 --> 00:02:47.720
+Well, look carefully and
+remember that anything
+
+74
+00:02:47.720 --> 00:02:49.250
+wrapped in quotation marks is
+
+75
+00:02:49.250 --> 00:02:51.005
+considered a string in Python.
+
+76
+00:02:51.005 --> 00:02:53.345
+So eight is a string here,
+
+77
+00:02:53.345 --> 00:02:54.995
+while seven is an integer.
+
+78
+00:02:54.995 --> 00:02:58.130
+To the computer, adding
+seven plus eight is just as
+
+79
+00:02:58.130 --> 00:03:01.455
+strange as adding
+seven plus A is to us,
+
+80
+00:03:01.455 --> 00:03:04.220
+and seven plus A equals
+no sense at all.
+
+81
+00:03:04.220 --> 00:03:06.495
+It might be helpful to
+think about data types
+
+82
+00:03:06.495 --> 00:03:08.765
+in terms of information
+they can represent.
+
+83
+00:03:08.765 --> 00:03:11.090
+For example, the name of a file
+
+84
+00:03:11.090 --> 00:03:13.230
+would be represented as
+a string data types,
+
+85
+00:03:13.230 --> 00:03:14.720
+while the size of that file
+
+86
+00:03:14.720 --> 00:03:16.870
+might be an integer data type.
+
+87
+00:03:16.870 --> 00:03:19.110
+If you're ever not 100 percent
+
+88
+00:03:19.110 --> 00:03:21.660
+sure what data types
+a certain value is,
+
+89
+00:03:21.660 --> 00:03:24.005
+Python gives you a
+handy way to find out.
+
+90
+00:03:24.005 --> 00:03:25.865
+You can use the type function,
+
+91
+00:03:25.865 --> 00:03:27.725
+to have the computer
+tell you the type.
+
+92
+00:03:27.725 --> 00:03:29.030
+This might come in handy
+
+93
+00:03:29.030 --> 00:03:30.410
+when dealing with
+code that someone
+
+94
+00:03:30.410 --> 00:03:31.460
+else wrote and you're not
+
+95
+00:03:31.460 --> 00:03:33.455
+sure what data types it's using.
+
+96
+00:03:33.455 --> 00:03:35.519
+For example,
+
+97
+00:03:42.890 --> 00:03:45.015
+pretty neat.
+
+98
+00:03:45.015 --> 00:03:49.405
+This tells us that A
+belongs to str class,
+
+99
+00:03:49.405 --> 00:03:51.860
+which like we said earlier
+is short for string.
+
+100
+00:03:51.860 --> 00:03:55.000
+The number 2, belongs
+to the int class,
+
+101
+00:03:55.000 --> 00:03:56.610
+which is short for integer,
+
+102
+00:03:56.610 --> 00:03:59.870
+and 2.5 belongs to
+the float class.
+
+103
+00:03:59.870 --> 00:04:01.400
+We'll talk more
+about what we mean
+
+104
+00:04:01.400 --> 00:04:03.245
+by class later in the course.
+
+105
+00:04:03.245 --> 00:04:06.950
+For now, you can just use it
+as a synonym for data type.
+
+106
+00:04:06.950 --> 00:04:11.745
+So now you know three very
+common data types in Python.
+
+107
+00:04:11.745 --> 00:04:13.940
+There are plenty of others
+you'll be using soon,
+
+108
+00:04:13.940 --> 00:04:15.785
+but don't worry about
+them at the moment.
+
+109
+00:04:15.785 --> 00:04:17.990
+As we continue
+through the course,
+
+110
+00:04:17.990 --> 00:04:20.030
+we'll come across more data types
+
+111
+00:04:20.030 --> 00:04:21.785
+and learn how to interact
+with each of them.
+
+112
+00:04:21.785 --> 00:04:23.615
+For now, just remember,
+
+113
+00:04:23.615 --> 00:04:26.120
+mixing your data types
+will get your computer,
+
+114
+00:04:26.120 --> 00:04:27.710
+well, all mixed up.
+
+115
+00:04:27.710 --> 00:04:29.975
+So keep your strings
+with your strings,
+
+116
+00:04:29.975 --> 00:04:31.400
+your integers with your integers,
+
+117
+00:04:31.400 --> 00:04:32.930
+and your floats with your floats,
+
+118
+00:04:32.930 --> 00:04:35.760
+and you shouldn't get in
+too much of a tangle.

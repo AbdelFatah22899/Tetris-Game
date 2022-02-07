@@ -1,0 +1,406 @@
+WEBVTT
+
+1
+00:00:07.760 --> 00:00:10.470
+You made it through another quiz.
+
+2
+00:00:10.470 --> 00:00:12.600
+You are doing
+awesomely, keep it up.
+
+3
+00:00:12.600 --> 00:00:14.820
+So far we've been
+looking at variables,
+
+4
+00:00:14.820 --> 00:00:16.890
+expressions and
+operations which are
+
+5
+00:00:16.890 --> 00:00:19.155
+the smallest
+components of scripts.
+
+6
+00:00:19.155 --> 00:00:21.315
+Up next, we're going to look at
+
+7
+00:00:21.315 --> 00:00:22.740
+functions which are another
+
+8
+00:00:22.740 --> 00:00:24.690
+crucial programming
+building block.
+
+9
+00:00:24.690 --> 00:00:25.970
+We've come across a few
+
+10
+00:00:25.970 --> 00:00:27.770
+Python functions
+in our examples so
+
+11
+00:00:27.770 --> 00:00:31.609
+far: the print function that
+writes text on the screen,
+
+12
+00:00:31.609 --> 00:00:33.140
+the type function which tells
+
+13
+00:00:33.140 --> 00:00:34.805
+us the type of a certain value
+
+14
+00:00:34.805 --> 00:00:36.560
+and the STR function
+
+15
+00:00:36.560 --> 00:00:38.555
+which converts a
+number into a string.
+
+16
+00:00:38.555 --> 00:00:41.285
+All those functions come
+as a part of the language,
+
+17
+00:00:41.285 --> 00:00:42.545
+and we'll look into a bunch of
+
+18
+00:00:42.545 --> 00:00:45.380
+other built-in Python functions
+throughout this course.
+
+19
+00:00:45.380 --> 00:00:47.090
+But now we're going to see
+
+20
+00:00:47.090 --> 00:00:48.830
+how to define our own
+functions to tell
+
+21
+00:00:48.830 --> 00:00:50.390
+the computer to do things that
+
+22
+00:00:50.390 --> 00:00:52.910
+the language is built-in
+functions don't.
+
+23
+00:00:52.910 --> 00:00:54.995
+Let's start with
+a simple example.
+
+24
+00:00:54.995 --> 00:00:56.600
+In this piece of code,
+
+25
+00:00:56.600 --> 00:00:58.265
+we're defining a function.
+
+26
+00:00:58.265 --> 00:01:00.035
+Our function takes the parameter,
+
+27
+00:01:00.035 --> 00:01:01.340
+here that perimeter is
+
+28
+00:01:01.340 --> 00:01:04.370
+name and prints a
+greeting for that name.
+
+29
+00:01:04.370 --> 00:01:07.220
+This snippet is small but
+it already shows a lot of
+
+30
+00:01:07.220 --> 00:01:10.115
+important points about how we
+define functions in Python.
+
+31
+00:01:10.115 --> 00:01:12.050
+Let's go through
+this step-by-step.
+
+32
+00:01:12.050 --> 00:01:13.520
+To define a function,
+
+33
+00:01:13.520 --> 00:01:15.995
+we use the def keyword.
+
+34
+00:01:15.995 --> 00:01:19.610
+The name of the function is
+what comes after the keyword.
+
+35
+00:01:19.610 --> 00:01:22.610
+In this example, the
+function's name is greeting.
+
+36
+00:01:22.610 --> 00:01:24.995
+So to call the function
+later in the script,
+
+37
+00:01:24.995 --> 00:01:27.095
+we'll use the word greeting.
+
+38
+00:01:27.095 --> 00:01:29.930
+After the name, we
+have the parameters of
+
+39
+00:01:29.930 --> 00:01:32.630
+the function which are
+written between parentheses.
+
+40
+00:01:32.630 --> 00:01:35.720
+In this example, we only
+have one parameter,
+
+41
+00:01:35.720 --> 00:01:38.815
+name, followed by a colon
+at the end of the line.
+
+42
+00:01:38.815 --> 00:01:41.825
+After the colon, we have
+the body of the function.
+
+43
+00:01:41.825 --> 00:01:44.540
+That's where we state what
+we want our function to do.
+
+44
+00:01:44.540 --> 00:01:47.105
+Note how the body is
+indented to the right.
+
+45
+00:01:47.105 --> 00:01:48.770
+This is a key characteristic of
+
+46
+00:01:48.770 --> 00:01:51.005
+Python and we'll come
+across to the bunch.
+
+47
+00:01:51.005 --> 00:01:53.300
+For now, just keep in
+mind that the body of
+
+48
+00:01:53.300 --> 00:01:56.195
+the function must be to the
+right of the definition.
+
+49
+00:01:56.195 --> 00:01:58.100
+In this example,
+the body contains
+
+50
+00:01:58.100 --> 00:02:00.440
+just one line that calls
+the print function.
+
+51
+00:02:00.440 --> 00:02:02.720
+Looks simple, right? But creating
+
+52
+00:02:02.720 --> 00:02:05.390
+functions can actually
+be super powerful.
+
+53
+00:02:05.390 --> 00:02:08.090
+The body of a function can
+have as many lines as we
+
+54
+00:02:08.090 --> 00:02:10.820
+want it to and do all
+sorts of fun stuff.
+
+55
+00:02:10.820 --> 00:02:13.715
+We'll find out exactly
+what in later videos.
+
+56
+00:02:13.715 --> 00:02:15.800
+But for now, let's execute
+our function and see
+
+57
+00:02:15.800 --> 00:02:22.770
+what happens. That's nice.
+
+58
+00:02:22.770 --> 00:02:24.500
+But it's not too interesting yet.
+
+59
+00:02:24.500 --> 00:02:26.970
+Let's make it do a little more.
+
+60
+00:02:27.760 --> 00:02:32.539
+Our function now receives two
+parameters instead of one,
+
+61
+00:02:32.539 --> 00:02:36.595
+name and department and it
+writes to separate messages.
+
+62
+00:02:36.595 --> 00:02:38.870
+Again, notice the indentation.
+
+63
+00:02:38.870 --> 00:02:40.550
+We can add as many lines as
+
+64
+00:02:40.550 --> 00:02:42.215
+we'd like to the
+body of the function
+
+65
+00:02:42.215 --> 00:02:43.910
+but each line must be indented
+
+66
+00:02:43.910 --> 00:02:46.190
+the same number of
+spaces to the right.
+
+67
+00:02:46.190 --> 00:02:49.085
+In this example, we're
+using four spaces.
+
+68
+00:02:49.085 --> 00:02:51.020
+We could use two or eight or
+
+69
+00:02:51.020 --> 00:02:54.215
+any other number as long
+as they're all consistent.
+
+70
+00:02:54.215 --> 00:02:58.440
+Let's try calling our new and
+improved greeting function.
+
+71
+00:03:08.390 --> 00:03:11.820
+Nice. That's more useful,
+
+72
+00:03:11.820 --> 00:03:13.340
+and we're only just scratching
+
+73
+00:03:13.340 --> 00:03:16.130
+the surface of what we
+can do with functions.
+
+74
+00:03:16.130 --> 00:03:19.459
+Remember that these are
+just simple examples
+
+75
+00:03:19.459 --> 00:03:20.810
+but a function can do a lot
+
+76
+00:03:20.810 --> 00:03:22.415
+more than just print messages.
+
+77
+00:03:22.415 --> 00:03:25.100
+In this course and throughout
+the upcoming courses,
+
+78
+00:03:25.100 --> 00:03:27.560
+we'll explore a bunch of other
+tasks that we can do with
+
+79
+00:03:27.560 --> 00:03:30.845
+Python and usually we'll
+write them inside functions.
+
+80
+00:03:30.845 --> 00:03:32.835
+How are you feeling so far?
+
+81
+00:03:32.835 --> 00:03:35.550
+These new concepts are
+coming fast and furious now.
+
+82
+00:03:35.550 --> 00:03:37.535
+Are you starting to get
+to grips with it all?
+
+83
+00:03:37.535 --> 00:03:39.160
+If so, awesome,
+
+84
+00:03:39.160 --> 00:03:40.890
+and if some things are
+still a little fuzzy,
+
+85
+00:03:40.890 --> 00:03:42.650
+now is a great moment to go back
+
+86
+00:03:42.650 --> 00:03:44.720
+and review everything
+we've covered up till now.
+
+87
+00:03:44.720 --> 00:03:46.520
+Once you're feeling good, meet
+
+88
+00:03:46.520 --> 00:03:48.690
+me on over in the next video.

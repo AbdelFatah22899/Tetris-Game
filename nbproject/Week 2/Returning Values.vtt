@@ -1,0 +1,455 @@
+WEBVTT
+
+1
+00:00:07.010 --> 00:00:09.240
+We've seen how we can pass
+
+2
+00:00:09.240 --> 00:00:11.460
+values into a function
+as parameters by
+
+3
+00:00:11.460 --> 00:00:13.320
+passing values like the name
+
+4
+00:00:13.320 --> 00:00:15.450
+or department in the
+example earlier.
+
+5
+00:00:15.450 --> 00:00:18.360
+But what about getting
+values out of a function?
+
+6
+00:00:18.360 --> 00:00:21.720
+This is where the concept of
+return values comes to play.
+
+7
+00:00:21.720 --> 00:00:25.755
+The work that functions do
+can produce new results.
+
+8
+00:00:25.755 --> 00:00:28.560
+Sure, we can print the
+results on the screen,
+
+9
+00:00:28.560 --> 00:00:30.990
+but what if we wanted to
+use those results later in
+
+10
+00:00:30.990 --> 00:00:33.600
+our script or didn't want
+to print them at all?
+
+11
+00:00:33.600 --> 00:00:34.880
+We can do this by returning
+
+12
+00:00:34.880 --> 00:00:37.400
+values from the functions
+we defined ourselves.
+
+13
+00:00:37.400 --> 00:00:40.085
+Let's go back to calculating
+the area of a triangle.
+
+14
+00:00:40.085 --> 00:00:41.690
+Do you remember our
+triangle example
+
+15
+00:00:41.690 --> 00:00:43.330
+from our earlier exercise?
+
+16
+00:00:43.330 --> 00:00:45.500
+The area of the
+triangle is calculated
+
+17
+00:00:45.500 --> 00:00:48.035
+as base times height
+divided by 2.
+
+18
+00:00:48.035 --> 00:00:49.790
+Imagine we need to calculate
+
+19
+00:00:49.790 --> 00:00:51.980
+this value several
+times in our code.
+
+20
+00:00:51.980 --> 00:00:53.450
+It would be useful
+to have a function
+
+21
+00:00:53.450 --> 00:00:54.500
+that does this for us.
+
+22
+00:00:54.500 --> 00:00:56.105
+Check out how this would look.
+
+23
+00:00:56.105 --> 00:00:58.940
+We use the keyword return to tell
+
+24
+00:00:58.940 --> 00:01:02.165
+Python that this is the
+return value of a function.
+
+25
+00:01:02.165 --> 00:01:03.530
+When we call the function,
+
+26
+00:01:03.530 --> 00:01:05.420
+we store that value
+in a variable.
+
+27
+00:01:05.420 --> 00:01:07.430
+Let's say we have the
+two triangles and
+
+28
+00:01:07.430 --> 00:01:09.620
+we want to add up the
+sum of both areas.
+
+29
+00:01:09.620 --> 00:01:11.780
+Here's what we
+would do. First, we
+
+30
+00:01:11.780 --> 00:01:14.640
+calculate the two
+areas separately.
+
+31
+00:01:24.230 --> 00:01:28.390
+Then, we add the sum of
+both areas together.
+
+32
+00:01:28.390 --> 00:01:32.930
+Finally, we print the result
+converting it to a string.
+
+33
+00:01:34.760 --> 00:01:37.385
+As you can see in this example,
+
+34
+00:01:37.385 --> 00:01:40.195
+the area of triangle
+function returns a value
+
+35
+00:01:40.195 --> 00:01:44.080
+which is not surprisingly
+the area of the triangle.
+
+36
+00:01:44.080 --> 00:01:45.520
+We store that value in
+
+37
+00:01:45.520 --> 00:01:48.325
+a different variable for
+each call to the function.
+
+38
+00:01:48.325 --> 00:01:51.375
+In this case, area_a and area_b.
+
+39
+00:01:51.375 --> 00:01:53.575
+Then we operate with those values
+
+40
+00:01:53.575 --> 00:01:55.120
+adding them into the variable
+
+41
+00:01:55.120 --> 00:01:58.720
+called sum and only
+printing this final result.
+
+42
+00:01:58.720 --> 00:02:01.565
+This shows the power of
+the return statement.
+
+43
+00:02:01.565 --> 00:02:04.400
+It allows us to combine
+calls to functions and to
+
+44
+00:02:04.400 --> 00:02:06.230
+more complex operations which
+
+45
+00:02:06.230 --> 00:02:09.065
+makes your code more reusable.
+
+46
+00:02:09.065 --> 00:02:12.110
+Return statements in
+Python are even more
+
+47
+00:02:12.110 --> 00:02:13.700
+interesting because we can use
+
+48
+00:02:13.700 --> 00:02:15.665
+them to return more
+than one value.
+
+49
+00:02:15.665 --> 00:02:17.480
+Let's say you have a duration of
+
+50
+00:02:17.480 --> 00:02:19.190
+time in seconds and you want to
+
+51
+00:02:19.190 --> 00:02:20.960
+convert that to the
+equivalent number
+
+52
+00:02:20.960 --> 00:02:22.835
+of hours, minutes, and seconds.
+
+53
+00:02:22.835 --> 00:02:24.830
+Here's how to do that in Python.
+
+54
+00:02:24.830 --> 00:02:27.625
+Did you spot the new
+operator in this function?
+
+55
+00:02:27.625 --> 00:02:30.550
+That double slash operator
+is called floor division.
+
+56
+00:02:30.550 --> 00:02:32.915
+A floor division divides a number
+
+57
+00:02:32.915 --> 00:02:35.810
+and takes the integer part of
+the division as the result.
+
+58
+00:02:35.810 --> 00:02:41.645
+For example, five slash slash
+two is two instead of 2.5.
+
+59
+00:02:41.645 --> 00:02:44.540
+In our example, the first
+operation is calculating
+
+60
+00:02:44.540 --> 00:02:47.615
+how many hours are in a
+given amount of seconds.
+
+61
+00:02:47.615 --> 00:02:49.400
+While the second works out
+
+62
+00:02:49.400 --> 00:02:51.260
+how many minutes are left once we
+
+63
+00:02:51.260 --> 00:02:52.640
+subtract the hours and then
+
+64
+00:02:52.640 --> 00:02:55.535
+how many seconds remain
+after subtracting minutes.
+
+65
+00:02:55.535 --> 00:02:58.355
+We end up with three
+numbers as a result.
+
+66
+00:02:58.355 --> 00:03:00.950
+So the function returns
+all three of them.
+
+67
+00:03:00.950 --> 00:03:02.900
+Let's see what this looks like
+
+68
+00:03:02.900 --> 00:03:05.190
+when we're calling a function.
+
+69
+00:03:17.630 --> 00:03:21.310
+Because we know that the
+function returns three values,
+
+70
+00:03:21.310 --> 00:03:22.460
+we assign the result of
+
+71
+00:03:22.460 --> 00:03:24.950
+the function to three
+different variables.
+
+72
+00:03:24.950 --> 00:03:26.840
+There's one last thing we should
+
+73
+00:03:26.840 --> 00:03:28.595
+call out about returning values.
+
+74
+00:03:28.595 --> 00:03:30.020
+It is possible to return
+
+75
+00:03:30.020 --> 00:03:32.060
+nothing and that's
+perfectly okay.
+
+76
+00:03:32.060 --> 00:03:34.355
+Let's look at an example
+from an earlier video.
+
+77
+00:03:34.355 --> 00:03:35.840
+Here the function just
+
+78
+00:03:35.840 --> 00:03:38.300
+printed a message and
+didn't return anything.
+
+79
+00:03:38.300 --> 00:03:40.340
+What do you think would
+happen if we try to
+
+80
+00:03:40.340 --> 00:03:42.770
+assign the value of this
+function to a variable?
+
+81
+00:03:42.770 --> 00:03:45.210
+Let's try it out and see.
+
+82
+00:03:51.470 --> 00:03:54.080
+Here when we call the function it
+
+83
+00:03:54.080 --> 00:03:56.090
+printed a message just
+like we expected.
+
+84
+00:03:56.090 --> 00:03:58.805
+We stored the return value
+in the result variable,
+
+85
+00:03:58.805 --> 00:04:01.130
+but there was no return
+statement in the function.
+
+86
+00:04:01.130 --> 00:04:03.230
+So the value of results is none.
+
+87
+00:04:03.230 --> 00:04:06.320
+None is a very special data
+type in Python used to
+
+88
+00:04:06.320 --> 00:04:07.340
+indicate that things are
+
+89
+00:04:07.340 --> 00:04:09.545
+empty or that they
+return nothing.
+
+90
+00:04:09.545 --> 00:04:11.270
+Wow. That was a lot to learn
+
+91
+00:04:11.270 --> 00:04:13.115
+about functions and
+the return values.
+
+92
+00:04:13.115 --> 00:04:15.500
+Remember that the key to
+getting this right is to
+
+93
+00:04:15.500 --> 00:04:16.910
+practice writing the code you've
+
+94
+00:04:16.910 --> 00:04:18.995
+just learned as many
+times as you need.
+
+95
+00:04:18.995 --> 00:04:20.720
+Functions and return values can
+
+96
+00:04:20.720 --> 00:04:22.330
+be tricky concepts to master,
+
+97
+00:04:22.330 --> 00:04:24.305
+but they let us do a
+bunch of cool stuff.
+
+98
+00:04:24.305 --> 00:04:26.840
+So put the time and
+effort into learning for
+
+99
+00:04:26.840 --> 00:04:30.480
+some really valuable returns.

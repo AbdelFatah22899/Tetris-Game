@@ -1,0 +1,332 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:07.732
+[MUSIC]
+
+2
+00:00:07.732 --> 00:00:12.087
+We've seen a few arithmetic expressions so
+far, like addition, subtraction, and
+
+3
+00:00:12.087 --> 00:00:13.100
+division.
+
+4
+00:00:13.100 --> 00:00:15.800
+Remember when we turned
+Python into a calculator?
+
+5
+00:00:15.800 --> 00:00:19.000
+Well, Python can also compare values.
+
+6
+00:00:19.000 --> 00:00:22.661
+This lets us check whether something
+is smaller than, equal to,
+
+7
+00:00:22.661 --> 00:00:24.469
+or bigger than something else.
+
+8
+00:00:24.469 --> 00:00:27.374
+This allows us to take the result
+of our expressions and
+
+9
+00:00:27.374 --> 00:00:29.100
+use them to make decisions.
+
+10
+00:00:29.100 --> 00:00:31.046
+Check out these three examples.
+
+11
+00:00:31.046 --> 00:00:37.200
+In the first example 10 is greater than 1,
+so the value true is printed as a result.
+
+12
+00:00:37.200 --> 00:00:41.173
+True is a value that belongs to
+another data type called the Boolean.
+
+13
+00:00:41.173 --> 00:00:46.178
+Booleans represent one of two possible
+states, either true or false.
+
+14
+00:00:46.178 --> 00:00:49.715
+Every time you compare things in
+Python the result is a Boolean of
+
+15
+00:00:49.715 --> 00:00:51.300
+the appropriate value.
+
+16
+00:00:51.300 --> 00:00:55.700
+In the second example we can see
+our very first equality operator,
+
+17
+00:00:55.700 --> 00:00:58.800
+which is formed by putting
+two equal signs together.
+
+18
+00:00:58.800 --> 00:01:02.600
+We use this operator to test whether
+two things are equal to each other.
+
+19
+00:01:02.600 --> 00:01:07.200
+In this example the string cat is
+not equal to the string dog, so
+
+20
+00:01:07.200 --> 00:01:10.200
+the Boolean that's printed is false.
+
+21
+00:01:10.200 --> 00:01:13.800
+In our third example we're
+doing the opposite comparison.
+
+22
+00:01:13.800 --> 00:01:18.400
+By pairing an exclamation mark and
+an equal sign we're using the not
+
+23
+00:01:18.400 --> 00:01:22.800
+equals operator, which is the negated
+form of the equality operator.
+
+24
+00:01:22.800 --> 00:01:28.496
+In this particular line of code the
+operator checks that 1 isn't equal to 2.
+
+25
+00:01:28.496 --> 00:01:33.290
+We call out before that the plus operator
+doesn't work between integers and strings.
+
+26
+00:01:33.290 --> 00:01:36.900
+What do you think will happen if we
+try to compare an integer and string?
+
+27
+00:01:36.900 --> 00:01:41.053
+Let's find out by seeing if the number
+1 is taller than the string 1.
+
+28
+00:01:44.634 --> 00:01:47.930
+Wha, wha, wha, we get a type error.
+
+29
+00:01:47.930 --> 00:01:50.177
+That's the same error we got before.
+
+30
+00:01:50.177 --> 00:01:54.257
+This happens because Python doesn't know
+how to check if a number is smaller than
+
+31
+00:01:54.257 --> 00:01:54.802
+a string.
+
+32
+00:01:54.802 --> 00:01:56.816
+And what about the equality operator?
+
+33
+00:02:05.517 --> 00:02:10.201
+In this case the Interpreter has no
+problem telling us that the integer 1 and
+
+34
+00:02:10.201 --> 00:02:12.190
+the string 1 aren't the same.
+
+35
+00:02:12.190 --> 00:02:13.638
+So what gives?
+
+36
+00:02:13.638 --> 00:02:17.577
+Basically although they may seem
+similar to us because they both contain
+
+37
+00:02:17.577 --> 00:02:21.259
+the same number, it's clear to
+the computer that one is a number and
+
+38
+00:02:21.259 --> 00:02:22.628
+the other is the string.
+
+39
+00:02:22.628 --> 00:02:26.200
+For the computer it's obvious that they
+are completely different entities.
+
+40
+00:02:27.800 --> 00:02:30.921
+On top of the comparison and
+equality operators,
+
+41
+00:02:30.921 --> 00:02:33.681
+Python also has a set
+of logical operators.
+
+42
+00:02:33.681 --> 00:02:37.184
+These operators allow you to connect
+multiple statements together and
+
+43
+00:02:37.184 --> 00:02:39.600
+perform more complex comparisons.
+
+44
+00:02:39.600 --> 00:02:44.274
+In Python the logical operators
+are the words and, or, and
+
+45
+00:02:44.274 --> 00:02:47.183
+not, let's look at some examples.
+
+46
+00:02:56.062 --> 00:02:58.052
+To evaluate as true the and
+
+47
+00:02:58.052 --> 00:03:03.401
+operator would need both expressions
+to be true at the same time here.
+
+48
+00:03:03.401 --> 00:03:06.087
+Here we're comparing strings,
+and the bigger and
+
+49
+00:03:06.087 --> 00:03:08.704
+smaller operators refer
+to alphabetical order.
+
+50
+00:03:08.704 --> 00:03:13.211
+Yellow comes after cyan, but
+brown doesn't come after magenta.
+
+51
+00:03:13.211 --> 00:03:17.369
+So this means that the first statement
+is true, but the second one isn't,
+
+52
+00:03:17.369 --> 00:03:20.410
+which makes the result of
+the whole expression false.
+
+53
+00:03:20.410 --> 00:03:25.494
+If we use the or operator instead
+the expression will be true if either of
+
+54
+00:03:25.494 --> 00:03:30.936
+the expressions are true, and false
+only when both expressions are false.
+
+55
+00:03:30.936 --> 00:03:32.897
+Let's try it out.
+
+56
+00:03:32.897 --> 00:03:37.861
+25 is definitely not bigger than 50,
+but 1 is different than 2.
+
+57
+00:03:37.861 --> 00:03:40.700
+So in the end the whole
+expression is true.
+
+58
+00:03:40.700 --> 00:03:41.700
+Last up,
+
+59
+00:03:41.700 --> 00:03:46.500
+the not operator inverts the value of
+the expression that's in front of it.
+
+60
+00:03:46.500 --> 00:03:49.183
+If the expression is true,
+it becomes false.
+
+61
+00:03:49.183 --> 00:03:50.735
+If it's false, it becomes true.
+
+62
+00:03:50.735 --> 00:03:51.931
+Just like this.
+
+63
+00:03:51.931 --> 00:03:55.975
+Logical operators are important because
+they help us write more complex
+
+64
+00:03:55.975 --> 00:03:56.846
+expressions.
+
+65
+00:03:56.846 --> 00:03:59.317
+We'll see this in action
+in the next few videos.
+
+66
+00:03:59.317 --> 00:04:02.699
+If this is the first time you've come
+across these operators it might seem like
+
+67
+00:04:02.699 --> 00:04:03.939
+there's a lot to remember.
+
+68
+00:04:03.939 --> 00:04:07.739
+But don't worry, you'll learn most of
+them very quickly just by practicing.
+
+69
+00:04:07.739 --> 00:04:10.447
+And in the next reading we
+have a cheat sheet that lists
+
+70
+00:04:10.447 --> 00:04:13.107
+all the operators available and
+what each one does.
+
+71
+00:04:13.107 --> 00:04:16.600
+It's a handy resource you're sure to find
+useful when writing your own scripts.

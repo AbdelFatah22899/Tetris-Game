@@ -1,0 +1,419 @@
+WEBVTT
+
+1
+00:00:06.980 --> 00:00:10.770
+When we ask a computer to
+perform an operation for us,
+
+2
+00:00:10.770 --> 00:00:12.900
+we usually need to store values
+
+3
+00:00:12.900 --> 00:00:15.555
+and give them names so that
+we can refer to them later.
+
+4
+00:00:15.555 --> 00:00:17.730
+This is where variables
+come in handy.
+
+5
+00:00:17.730 --> 00:00:19.500
+Variables are names
+that we give to
+
+6
+00:00:19.500 --> 00:00:21.645
+certain values in our programs.
+
+7
+00:00:21.645 --> 00:00:23.910
+Those values can be
+of any data type;
+
+8
+00:00:23.910 --> 00:00:27.090
+numbers, strings or even
+the results of operations.
+
+9
+00:00:27.090 --> 00:00:29.030
+We already used
+variables in some of
+
+10
+00:00:29.030 --> 00:00:30.890
+our initial examples like using
+
+11
+00:00:30.890 --> 00:00:33.140
+them to store a name or a value.
+
+12
+00:00:33.140 --> 00:00:35.000
+Now we are going to
+learn exactly how
+
+13
+00:00:35.000 --> 00:00:36.920
+they work and how to
+make the most of them.
+
+14
+00:00:36.920 --> 00:00:39.800
+Think of variables as
+containers for data.
+
+15
+00:00:39.800 --> 00:00:41.720
+When you create a
+variable in your code,
+
+16
+00:00:41.720 --> 00:00:43.400
+your computer reserves a chunk of
+
+17
+00:00:43.400 --> 00:00:45.470
+its own memory to
+store that value.
+
+18
+00:00:45.470 --> 00:00:47.210
+This lets the computer access the
+
+19
+00:00:47.210 --> 00:00:49.910
+variable later to read
+or modify the value.
+
+20
+00:00:49.910 --> 00:00:51.635
+Let's see this in action.
+
+21
+00:00:51.635 --> 00:00:54.830
+Imagine a simple script
+that calculates the area of
+
+22
+00:00:54.830 --> 00:00:56.900
+a rectangle using
+the formula area
+
+23
+00:00:56.900 --> 00:00:59.020
+equals length times width.
+
+24
+00:00:59.020 --> 00:01:01.520
+Area, length and width can all be
+
+25
+00:01:01.520 --> 00:01:04.070
+represented by
+variables like this.
+
+26
+00:01:04.070 --> 00:01:05.870
+In this script we are creating
+
+27
+00:01:05.870 --> 00:01:09.335
+three variables and storing
+different values in each.
+
+28
+00:01:09.335 --> 00:01:11.270
+The process of storing a value
+
+29
+00:01:11.270 --> 00:01:13.580
+inside a variable is
+called assignment.
+
+30
+00:01:13.580 --> 00:01:17.180
+Here we assign the length
+variable the value of 10.
+
+31
+00:01:17.180 --> 00:01:18.950
+We assign the width
+variable the value
+
+32
+00:01:18.950 --> 00:01:20.720
+of two and we assign the area
+
+33
+00:01:20.720 --> 00:01:22.400
+variable with the result of
+
+34
+00:01:22.400 --> 00:01:25.445
+the expression
+length times width.
+
+35
+00:01:25.445 --> 00:01:28.880
+An expression is a
+combination of numbers,
+
+36
+00:01:28.880 --> 00:01:30.530
+symbols or other variables that
+
+37
+00:01:30.530 --> 00:01:32.600
+produce a result when evaluated.
+
+38
+00:01:32.600 --> 00:01:35.300
+In this example, we are
+multiplying the value of
+
+39
+00:01:35.300 --> 00:01:38.275
+two variables to arrive at
+the value that we want.
+
+40
+00:01:38.275 --> 00:01:41.420
+Finally, we use our old
+friend the print function to
+
+41
+00:01:41.420 --> 00:01:45.065
+display the value of the area
+on the screen. All right.
+
+42
+00:01:45.065 --> 00:01:48.230
+We have just seen how to
+assign values to variables,
+
+43
+00:01:48.230 --> 00:01:49.790
+use expressions to calculate
+
+44
+00:01:49.790 --> 00:01:51.260
+more complex values and then
+
+45
+00:01:51.260 --> 00:01:53.720
+print the contents of a variable.
+
+46
+00:01:53.720 --> 00:01:57.260
+Variables are important in
+programming because they let
+
+47
+00:01:57.260 --> 00:02:00.350
+you perform operations
+on data that may change.
+
+48
+00:02:00.350 --> 00:02:03.650
+For example, if we extended
+our rectangle script to
+
+49
+00:02:03.650 --> 00:02:05.450
+accept any input as the value
+
+50
+00:02:05.450 --> 00:02:07.685
+of the length and
+width variables,
+
+51
+00:02:07.685 --> 00:02:09.845
+we could calculate the
+area of a rectangle of
+
+52
+00:02:09.845 --> 00:02:13.510
+any size or to give a
+more IT focused example,
+
+53
+00:02:13.510 --> 00:02:15.260
+say we have a script
+that performs
+
+54
+00:02:15.260 --> 00:02:17.210
+a specific operation on a file.
+
+55
+00:02:17.210 --> 00:02:18.860
+We can extend that script to
+
+56
+00:02:18.860 --> 00:02:20.510
+perform the same operation on
+
+57
+00:02:20.510 --> 00:02:22.610
+any file but only if the program
+
+58
+00:02:22.610 --> 00:02:25.000
+used a variable to
+store the file name.
+
+59
+00:02:25.000 --> 00:02:26.600
+You might have noticed that we
+
+60
+00:02:26.600 --> 00:02:28.850
+assign a value to a
+variable by using
+
+61
+00:02:28.850 --> 00:02:33.155
+the equal sign in the form
+of variable equals value.
+
+62
+00:02:33.155 --> 00:02:35.900
+Generally, you can name
+variables whatever you
+
+63
+00:02:35.900 --> 00:02:38.575
+like but there are
+some restrictions.
+
+64
+00:02:38.575 --> 00:02:42.290
+First, you shouldn't use
+as variable names any of
+
+65
+00:02:42.290 --> 00:02:44.270
+the key words or
+functions that Python
+
+66
+00:02:44.270 --> 00:02:46.985
+reserves for its own, like print.
+
+67
+00:02:46.985 --> 00:02:49.220
+Using these reserved
+terms will make
+
+68
+00:02:49.220 --> 00:02:52.090
+your program confusing to read
+and will result in errors.
+
+69
+00:02:52.090 --> 00:02:53.930
+Python also has some
+restrictions on
+
+70
+00:02:53.930 --> 00:02:56.135
+the characters you can
+use to define a variable.
+
+71
+00:02:56.135 --> 00:02:58.730
+Variable names can't have
+any spaces and they must
+
+72
+00:02:58.730 --> 00:03:01.775
+start with either a
+letter or an underscore.
+
+73
+00:03:01.775 --> 00:03:03.860
+Also, they can only be made
+
+74
+00:03:03.860 --> 00:03:06.040
+up of letters, numbers
+and underscores.
+
+75
+00:03:06.040 --> 00:03:07.850
+Let's check out some examples of
+
+76
+00:03:07.850 --> 00:03:09.680
+valid and invalid variable
+
+77
+00:03:09.680 --> 00:03:11.940
+names to understand this better.
+
+78
+00:03:14.020 --> 00:03:18.450
+I_am_a_variable is the
+valid variable name.
+
+79
+00:03:20.530 --> 00:03:25.225
+I_am_a_variable2 is also
+a valid variable name.
+
+80
+00:03:25.225 --> 00:03:31.010
+1_is_a_number is invalid because
+
+81
+00:03:31.010 --> 00:03:34.765
+variable names must start
+with a letter or underscore.
+
+82
+00:03:34.765 --> 00:03:40.280
+Apples_&_oranges
+is invalid because
+
+83
+00:03:40.280 --> 00:03:43.075
+it uses the special
+character uppers hand.
+
+84
+00:03:43.075 --> 00:03:45.170
+Last thing, remember that
+
+85
+00:03:45.170 --> 00:03:47.375
+precision is important
+when programming.
+
+86
+00:03:47.375 --> 00:03:48.830
+Python variables are case
+
+87
+00:03:48.830 --> 00:03:51.080
+sensitive, so
+capitalization matters.
+
+88
+00:03:51.080 --> 00:03:54.005
+Lowercase name,
+uppercase name and
+
+89
+00:03:54.005 --> 00:03:58.490
+all caps name are all valid
+and different variable names,
+
+90
+00:03:58.490 --> 00:04:02.970
+and that rule on
+variables is invariable.

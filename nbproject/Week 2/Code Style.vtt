@@ -1,0 +1,492 @@
+WEBVTT
+
+1
+00:00:07.010 --> 00:00:09.600
+So far, we've looked into how
+
+2
+00:00:09.600 --> 00:00:12.074
+the Python syntax is
+used for variables,
+
+3
+00:00:12.074 --> 00:00:14.925
+expressions, and defining
+and using functions.
+
+4
+00:00:14.925 --> 00:00:16.905
+There's a lot more
+syntax to come.
+
+5
+00:00:16.905 --> 00:00:18.210
+But before we dive into that,
+
+6
+00:00:18.210 --> 00:00:19.410
+let's talk a bit about
+
+7
+00:00:19.410 --> 00:00:22.170
+a different side of
+programming, Style.
+
+8
+00:00:22.170 --> 00:00:23.460
+On the whole, having
+
+9
+00:00:23.460 --> 00:00:25.590
+good or bad style
+when you write code
+
+10
+00:00:25.590 --> 00:00:27.060
+doesn't make much
+difference between
+
+11
+00:00:27.060 --> 00:00:28.800
+a script succeeding or crashing,
+
+12
+00:00:28.800 --> 00:00:30.360
+but it can make a
+big difference for
+
+13
+00:00:30.360 --> 00:00:32.610
+the people who use it
+and contribute to it.
+
+14
+00:00:32.610 --> 00:00:34.440
+Poor programming style can make
+
+15
+00:00:34.440 --> 00:00:36.570
+life difficult for
+the IT specialists or
+
+16
+00:00:36.570 --> 00:00:38.460
+system administrators
+who have to read
+
+17
+00:00:38.460 --> 00:00:41.405
+the script after it's written
+or make changes to it.
+
+18
+00:00:41.405 --> 00:00:43.025
+So it works with a new system.
+
+19
+00:00:43.025 --> 00:00:45.140
+Bad style can even give
+
+20
+00:00:45.140 --> 00:00:46.550
+the scripts author a headache
+
+21
+00:00:46.550 --> 00:00:48.350
+if it's been awhile
+since they've wrote it.
+
+22
+00:00:48.350 --> 00:00:49.910
+Imagine having to rewrite
+
+23
+00:00:49.910 --> 00:00:52.820
+your own code because it's
+too messy to understand.
+
+24
+00:00:52.820 --> 00:00:55.730
+On the flip side,
+good style can make
+
+25
+00:00:55.730 --> 00:00:58.640
+a script look almost like
+natural human language.
+
+26
+00:00:58.640 --> 00:01:00.500
+It can make the
+scripts intent and
+
+27
+00:01:00.500 --> 00:01:02.945
+construction immediately
+clear to the reader.
+
+28
+00:01:02.945 --> 00:01:04.535
+Goods style makes life
+
+29
+00:01:04.535 --> 00:01:06.260
+easier for people
+who have to maintain
+
+30
+00:01:06.260 --> 00:01:07.430
+the code and helps them
+
+31
+00:01:07.430 --> 00:01:09.730
+understand what it does
+and how it does it.
+
+32
+00:01:09.730 --> 00:01:10.850
+It can also reduce
+
+33
+00:01:10.850 --> 00:01:12.980
+errors since it makes
+updating the code
+
+34
+00:01:12.980 --> 00:01:14.950
+easier and more straightforward
+
+35
+00:01:14.950 --> 00:01:16.890
+and most importantly good style
+
+36
+00:01:16.890 --> 00:01:18.870
+makes you look cool, right?
+
+37
+00:01:18.870 --> 00:01:22.385
+So we agree, our code
+should be stylish.
+
+38
+00:01:22.385 --> 00:01:26.035
+But what makes the style of
+a piece of code good or bad?
+
+39
+00:01:26.035 --> 00:01:28.460
+Although there are no
+hard and fast rules that
+
+40
+00:01:28.460 --> 00:01:31.310
+apply to every programming
+language and situation,
+
+41
+00:01:31.310 --> 00:01:33.440
+keeping a few principles
+in mind will go
+
+42
+00:01:33.440 --> 00:01:36.695
+a long way to creating
+good well styled code.
+
+43
+00:01:36.695 --> 00:01:38.600
+First off, you want your code to
+
+44
+00:01:38.600 --> 00:01:41.090
+be self-documenting as possible.
+
+45
+00:01:41.090 --> 00:01:43.490
+Self-documenting code is
+written in a way that's
+
+46
+00:01:43.490 --> 00:01:46.160
+readable and doesn't
+conceal its intent.
+
+47
+00:01:46.160 --> 00:01:48.230
+This principle can be applied to
+
+48
+00:01:48.230 --> 00:01:49.970
+all aspects of writing code from
+
+49
+00:01:49.970 --> 00:01:51.410
+picking your variable names to
+
+50
+00:01:51.410 --> 00:01:53.780
+writing clear
+concise expressions.
+
+51
+00:01:53.780 --> 00:01:56.075
+Take this code
+snippet for example.
+
+52
+00:01:56.075 --> 00:01:57.980
+It's hard to
+determine the purpose
+
+53
+00:01:57.980 --> 00:01:59.855
+of this code by
+just looking at it.
+
+54
+00:01:59.855 --> 00:02:02.150
+The names of the variables
+don't give the reader
+
+55
+00:02:02.150 --> 00:02:04.190
+much information and although you
+
+56
+00:02:04.190 --> 00:02:06.620
+can likely work out the
+result of the calculation,
+
+57
+00:02:06.620 --> 00:02:09.530
+there are no clues to what
+that result might be used for.
+
+58
+00:02:09.530 --> 00:02:11.660
+In programming lingo, when we
+
+59
+00:02:11.660 --> 00:02:14.185
+re-write code to be
+more self-documenting,
+
+60
+00:02:14.185 --> 00:02:16.595
+we call this process refactoring.
+
+61
+00:02:16.595 --> 00:02:20.550
+So how would it look if
+we refactored this code?
+
+62
+00:02:28.730 --> 00:02:31.285
+With this refactored code,
+
+63
+00:02:31.285 --> 00:02:33.350
+the intent should
+now be more clear.
+
+64
+00:02:33.350 --> 00:02:34.850
+The names of the variables and
+
+65
+00:02:34.850 --> 00:02:36.620
+the function reflect
+their purpose,
+
+66
+00:02:36.620 --> 00:02:39.620
+which helps the reader understand
+the code more quickly.
+
+67
+00:02:39.620 --> 00:02:41.600
+You should always aim for
+
+68
+00:02:41.600 --> 00:02:43.490
+your code to be self-documenting.
+
+69
+00:02:43.490 --> 00:02:45.620
+But even then, sometimes
+you may need to use
+
+70
+00:02:45.620 --> 00:02:48.410
+a particularly tricky bit
+of code in your script.
+
+71
+00:02:48.410 --> 00:02:49.700
+When good naming and
+
+72
+00:02:49.700 --> 00:02:52.030
+clean organization can't
+make the code clear,
+
+73
+00:02:52.030 --> 00:02:55.220
+you can add a bit of
+explanatory texts to the code.
+
+74
+00:02:55.220 --> 00:02:58.460
+You do this by adding
+what we call a comment.
+
+75
+00:02:58.460 --> 00:03:02.570
+In Python, comments are
+indicated by the hash character.
+
+76
+00:03:02.570 --> 00:03:04.685
+When your computer
+sees a hash character
+
+77
+00:03:04.685 --> 00:03:06.290
+and understands that
+it should ignore
+
+78
+00:03:06.290 --> 00:03:07.790
+everything that comes after
+
+79
+00:03:07.790 --> 00:03:11.230
+that character on that line.
+Check out how this looks.
+
+80
+00:03:12.200 --> 00:03:15.010
+Using comments, lets you explain
+
+81
+00:03:15.010 --> 00:03:17.320
+why a function does
+something a certain way.
+
+82
+00:03:17.320 --> 00:03:20.485
+It also allows you to leave
+notes to your future self or
+
+83
+00:03:20.485 --> 00:03:22.150
+other programmers
+to remind you of
+
+84
+00:03:22.150 --> 00:03:24.695
+what needs to be
+improved and why.
+
+85
+00:03:24.695 --> 00:03:27.190
+Obviously, it's much easier
+
+86
+00:03:27.190 --> 00:03:29.140
+to read your own code
+than someone else's.
+
+87
+00:03:29.140 --> 00:03:32.140
+But in my job, I work on code
+that was written by lots of
+
+88
+00:03:32.140 --> 00:03:33.640
+different people and everybody
+
+89
+00:03:33.640 --> 00:03:35.650
+designs things a
+little differently.
+
+90
+00:03:35.650 --> 00:03:37.540
+This is why it's so important to
+
+91
+00:03:37.540 --> 00:03:39.800
+comment and document
+your code well.
+
+92
+00:03:39.800 --> 00:03:41.080
+More often than not,
+
+93
+00:03:41.080 --> 00:03:42.280
+your code will eventually be
+
+94
+00:03:42.280 --> 00:03:44.125
+used by someone other than you.
+
+95
+00:03:44.125 --> 00:03:45.400
+So be a good neighbor.
+
+96
+00:03:45.400 --> 00:03:46.990
+Use the style guide to structure
+
+97
+00:03:46.990 --> 00:03:48.775
+your code in a way
+that's readable by
+
+98
+00:03:48.775 --> 00:03:50.890
+others or by you
+in six months when
+
+99
+00:03:50.890 --> 00:03:51.940
+you've forgotten why you wrote
+
+100
+00:03:51.940 --> 00:03:53.255
+that code in the first place.
+
+101
+00:03:53.255 --> 00:03:55.315
+In upcoming exercises
+in this course,
+
+102
+00:03:55.315 --> 00:03:56.750
+we'll use comments to let you
+
+103
+00:03:56.750 --> 00:03:58.520
+know what you need
+to do with the code.
+
+104
+00:03:58.520 --> 00:04:01.700
+You can always write as many
+extra comments as you need.
+
+105
+00:04:01.700 --> 00:04:03.950
+Coming up, a quiz to consolidate
+
+106
+00:04:03.950 --> 00:04:06.275
+your newly acquired
+knowledge about functions.
+
+107
+00:04:06.275 --> 00:04:09.010
+Don't worry. You've got this.

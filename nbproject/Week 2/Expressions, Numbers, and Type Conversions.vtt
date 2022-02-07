@@ -1,0 +1,254 @@
+WEBVTT
+
+1
+00:00:07.010 --> 00:00:09.135
+In an earlier video,
+
+2
+00:00:09.135 --> 00:00:11.790
+we saw how we can't use
+the plus operator between
+
+3
+00:00:11.790 --> 00:00:13.140
+an integer and a string
+
+4
+00:00:13.140 --> 00:00:15.030
+because they're
+different data types.
+
+5
+00:00:15.030 --> 00:00:17.190
+But what happens when
+we try to operate with
+
+6
+00:00:17.190 --> 00:00:20.920
+an integer and a float
+instead, let's find out.
+
+7
+00:00:23.660 --> 00:00:26.460
+Error-free, Python
+
+8
+00:00:26.460 --> 00:00:28.905
+has no problem performing
+this operation.
+
+9
+00:00:28.905 --> 00:00:31.020
+But what's up with
+that, aren't integer
+
+10
+00:00:31.020 --> 00:00:33.510
+and a float two
+different data types?
+
+11
+00:00:33.510 --> 00:00:34.800
+They sure are but there's
+
+12
+00:00:34.800 --> 00:00:36.410
+a lot happening
+under the hood here.
+
+13
+00:00:36.410 --> 00:00:39.529
+Behind the scenes the computer
+is busy automatically
+
+14
+00:00:39.529 --> 00:00:43.085
+converting our integer
+seven into a float seven.
+
+15
+00:00:43.085 --> 00:00:45.050
+This lets Python
+then add together
+
+16
+00:00:45.050 --> 00:00:48.215
+the values to return results
+that is also a float.
+
+17
+00:00:48.215 --> 00:00:51.435
+We call this process,
+implicit conversion.
+
+18
+00:00:51.435 --> 00:00:53.690
+The interpreter
+automatically converts
+
+19
+00:00:53.690 --> 00:00:55.730
+one data type into another.
+
+20
+00:00:55.730 --> 00:00:57.320
+We've called this out before,
+
+21
+00:00:57.320 --> 00:00:58.895
+but it's worth
+highlighting again that
+
+22
+00:00:58.895 --> 00:01:02.105
+Python operations aren't
+just restricted to numbers.
+
+23
+00:01:02.105 --> 00:01:04.280
+You can also use
+the plus operator
+
+24
+00:01:04.280 --> 00:01:06.050
+to add together strings.
+
+25
+00:01:06.050 --> 00:01:08.000
+This lets you do
+things like create
+
+26
+00:01:08.000 --> 00:01:10.040
+sentences from individual words.
+
+27
+00:01:10.040 --> 00:01:12.590
+Just don't forget to add
+spaces to each words.
+
+28
+00:01:12.590 --> 00:01:14.945
+Otherwise, the computer
+will run them all together.
+
+29
+00:01:14.945 --> 00:01:17.450
+So what if you really want to
+
+30
+00:01:17.450 --> 00:01:20.015
+combine a string and a
+number, is it possible?
+
+31
+00:01:20.015 --> 00:01:23.695
+It sure is but only with
+an explicit conversion.
+
+32
+00:01:23.695 --> 00:01:27.080
+In Python, to convert between
+one data type and another,
+
+33
+00:01:27.080 --> 00:01:28.220
+we call a function with
+
+34
+00:01:28.220 --> 00:01:30.185
+the name of the type
+we're converting to.
+
+35
+00:01:30.185 --> 00:01:32.005
+Let's see how this works.
+
+36
+00:01:32.005 --> 00:01:35.360
+Now, things are getting a
+little bit more complex.
+
+37
+00:01:35.360 --> 00:01:37.070
+Let's take a moment to unpack
+
+38
+00:01:37.070 --> 00:01:38.870
+this to make sure
+it all makes sense.
+
+39
+00:01:38.870 --> 00:01:40.550
+In this script, we're first
+
+40
+00:01:40.550 --> 00:01:42.784
+calculating the
+area of a triangle,
+
+41
+00:01:42.784 --> 00:01:45.840
+and when printing it we're
+adding it to a string.
+
+42
+00:01:45.840 --> 00:01:47.270
+To do this, we need to call
+
+43
+00:01:47.270 --> 00:01:51.530
+the STR function to convert
+a number into a string.
+
+44
+00:01:51.530 --> 00:01:54.845
+Let's execute it and
+check out what happens.
+
+45
+00:01:54.845 --> 00:01:57.650
+Our number got
+converted to a string
+
+46
+00:01:57.650 --> 00:02:00.570
+and print it together
+with the message.
+
+47
+00:02:01.940 --> 00:02:04.905
+We've learned a little
+bit about variables,
+
+48
+00:02:04.905 --> 00:02:07.635
+values, expressions,
+and conversions.
+
+49
+00:02:07.635 --> 00:02:08.930
+Next up, we've got
+
+50
+00:02:08.930 --> 00:02:11.390
+a practice quiz to help you
+solidify your knowledge.
+
+51
+00:02:11.390 --> 00:02:13.295
+As always, take your time
+
+52
+00:02:13.295 --> 00:02:15.055
+and review the
+content if you need.
+
+53
+00:02:15.055 --> 00:02:16.565
+You've totally got this.
+
+54
+00:02:16.565 --> 00:02:19.790
+I'll see you in the next
+video once you're finished.

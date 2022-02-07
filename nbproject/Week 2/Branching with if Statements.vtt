@@ -1,0 +1,332 @@
+WEBVTT
+
+1
+00:00:06.980 --> 00:00:09.630
+Now that we're armed
+with knowledge of
+
+2
+00:00:09.630 --> 00:00:13.004
+Python's expressions,
+comparators, and variables,
+
+3
+00:00:13.004 --> 00:00:15.270
+we can dive right into
+how to use them in
+
+4
+00:00:15.270 --> 00:00:16.320
+our scripts to perform
+
+5
+00:00:16.320 --> 00:00:18.415
+different actions
+based on their values.
+
+6
+00:00:18.415 --> 00:00:20.160
+The ability of a program to alter
+
+7
+00:00:20.160 --> 00:00:23.100
+its execution sequence
+is called branching,
+
+8
+00:00:23.100 --> 00:00:26.130
+and it's a key component in
+making your scripts useful.
+
+9
+00:00:26.130 --> 00:00:27.840
+You probably use the idea of
+
+10
+00:00:27.840 --> 00:00:30.075
+branching a bunch in
+your everyday life.
+
+11
+00:00:30.075 --> 00:00:31.770
+For example, if it's before noon,
+
+12
+00:00:31.770 --> 00:00:33.600
+you might greet someone
+by saying good morning
+
+13
+00:00:33.600 --> 00:00:35.745
+instead of good afternoon
+or good evening.
+
+14
+00:00:35.745 --> 00:00:37.010
+If it's raining outside, you
+
+15
+00:00:37.010 --> 00:00:38.450
+might choose to take an umbrella.
+
+16
+00:00:38.450 --> 00:00:40.865
+If it's cold, you
+probably wear a jacket.
+
+17
+00:00:40.865 --> 00:00:42.950
+In your scripts, you can instruct
+
+18
+00:00:42.950 --> 00:00:45.590
+your computer to make
+decisions based on inputs to.
+
+19
+00:00:45.590 --> 00:00:48.610
+Let's take a look at
+an IT-focused example.
+
+20
+00:00:48.610 --> 00:00:51.050
+In many companies, new
+employees can choose
+
+21
+00:00:51.050 --> 00:00:54.215
+the username they'll use to
+access the company's systems,
+
+22
+00:00:54.215 --> 00:00:56.030
+and usually, the chosen username
+
+23
+00:00:56.030 --> 00:00:58.160
+needs to fit with a
+given set of guidelines.
+
+24
+00:00:58.160 --> 00:01:00.200
+Companies can set
+different criteria
+
+25
+00:01:00.200 --> 00:01:02.330
+for what a valid
+username looks like.
+
+26
+00:01:02.330 --> 00:01:05.010
+For now, let's assume
+that at your company,
+
+27
+00:01:05.010 --> 00:01:08.660
+a valid username has to have
+at least three characters.
+
+28
+00:01:08.660 --> 00:01:11.450
+You've been tasked with writing
+a program that will tell
+
+29
+00:01:11.450 --> 00:01:14.105
+the user if their
+choices valid or not.
+
+30
+00:01:14.105 --> 00:01:17.095
+To do that, you could write
+a function like this.
+
+31
+00:01:17.095 --> 00:01:19.310
+This function checks
+whether the length
+
+32
+00:01:19.310 --> 00:01:21.485
+of the username is
+smaller than three.
+
+33
+00:01:21.485 --> 00:01:23.060
+If it is, the function prints
+
+34
+00:01:23.060 --> 00:01:25.550
+a message saying that
+the username is invalid.
+
+35
+00:01:25.550 --> 00:01:28.520
+Look closely at how the
+if statement is written.
+
+36
+00:01:28.520 --> 00:01:30.335
+We write the keyword if
+
+37
+00:01:30.335 --> 00:01:32.760
+followed by the condition
+that we want to check for,
+
+38
+00:01:32.760 --> 00:01:34.730
+and then followed by a colon.
+
+39
+00:01:34.730 --> 00:01:37.700
+After that, comes the
+body of the if block,
+
+40
+00:01:37.700 --> 00:01:40.145
+which is indented
+further to the right.
+
+41
+00:01:40.145 --> 00:01:43.430
+You may notice that there are
+some similarities between
+
+42
+00:01:43.430 --> 00:01:46.430
+how an if block and the
+function are defined.
+
+43
+00:01:46.430 --> 00:01:49.715
+The keyword, either def or if,
+
+44
+00:01:49.715 --> 00:01:52.175
+indicates the start
+of a special block.
+
+45
+00:01:52.175 --> 00:01:54.785
+At the end of the first
+line, we use a colon,
+
+46
+00:01:54.785 --> 00:01:56.810
+and then the body
+of the function or
+
+47
+00:01:56.810 --> 00:01:59.180
+the if block is
+indented to the right.
+
+48
+00:01:59.180 --> 00:02:01.670
+But there's also an
+important difference
+
+49
+00:02:01.670 --> 00:02:04.670
+between how an if block and
+a function are defined.
+
+50
+00:02:04.670 --> 00:02:08.090
+The body of the if block
+will only execute when
+
+51
+00:02:08.090 --> 00:02:12.455
+the condition evaluates to
+true; otherwise, it skipped.
+
+52
+00:02:12.455 --> 00:02:15.140
+Of course, you can do a
+lot more things inside
+
+53
+00:02:15.140 --> 00:02:17.645
+the body of the if block
+than just printing stuff.
+
+54
+00:02:17.645 --> 00:02:19.830
+As we expand our
+programming abilities,
+
+55
+00:02:19.830 --> 00:02:21.200
+we'll learn how to do things like
+
+56
+00:02:21.200 --> 00:02:22.925
+shorten texts that's too long,
+
+57
+00:02:22.925 --> 00:02:24.770
+delete a file if it exists,
+
+58
+00:02:24.770 --> 00:02:27.380
+start a service if it's not
+running, and a bunch more.
+
+59
+00:02:27.380 --> 00:02:29.420
+If your code is
+inside a function,
+
+60
+00:02:29.420 --> 00:02:31.370
+you could also choose
+to return a value
+
+61
+00:02:31.370 --> 00:02:33.995
+depending on whether a
+certain condition is met.
+
+62
+00:02:33.995 --> 00:02:36.445
+Can you imagine how
+that would look?
+
+63
+00:02:36.445 --> 00:02:39.850
+By now, you know how
+to define functions,
+
+64
+00:02:39.850 --> 00:02:41.240
+and inside those functions,
+
+65
+00:02:41.240 --> 00:02:42.680
+you can now make your program do
+
+66
+00:02:42.680 --> 00:02:45.125
+something only when certain
+conditions are met.
+
+67
+00:02:45.125 --> 00:02:47.870
+Ready to branch out and make
+
+68
+00:02:47.870 --> 00:02:51.635
+our branches even more
+interesting with else statements?
+
+69
+00:02:51.635 --> 00:02:53.720
+Then hop on over
+to the next video,
+
+70
+00:02:53.720 --> 00:02:56.190
+or else, you'll miss out.
